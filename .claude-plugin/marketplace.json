@@ -1,0 +1,17 @@
+{
+  "name": "claude-toolkit",
+  "owner": {
+    "name": "Simon Beesley"
+  },
+  "description": "A growing catalogue of general-purpose Claude Code commands and skills — the ones that aren't tied to any one codebase.",
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "orient",
+      "source": "./orient",
+      "description": "Per-thread cold-start orientation — snapshot and recall the headspace you left each workstream with, so you can step back into one thread cold without reconstructing it."
+    }
+  ]
+}
